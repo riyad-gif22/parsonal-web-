@@ -133,7 +133,7 @@ a {
 
 .hire-btn {
     background: var(--orange);
-    color: #fff;
+    color: #0e0d0e58;
 
     padding: 10px 20px;
 
@@ -142,7 +142,7 @@ a {
 
     border-radius: 3px;
 
-    transition: 0.3s;
+    transition: 0.15s;
 }
 
 .hire-btn:hover {
