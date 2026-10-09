@@ -14,7 +14,7 @@ if (contactForm) {
 
         alert("Thank you, " + name + "! Your message has been received.");
 
-        contactForm.reset();
+       
 
     });
 
