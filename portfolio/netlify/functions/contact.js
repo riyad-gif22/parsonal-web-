@@ -1,4 +1,4 @@
-```javascript
+export default async (req) => {
 export default async (req) => {
   const headers = {
     "Content-Type": "application/json"
