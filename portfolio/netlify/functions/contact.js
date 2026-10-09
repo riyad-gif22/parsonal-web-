@@ -38,7 +38,7 @@ export default async (req) => {
         from: "Portfolio Contact <onboarding@resend.dev>",
         to: ["ovronillre@gmail.com"],
         reply_to: email,
-        subject: `Portfolio Contact: ${subject}`,
+        subject: "Portfolio Contact: " + subject,
         text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`
       })
     });
