@@ -686,10 +686,12 @@
             </div>
 
 
-            <form class="contact-form" id="contactForm">
+           <form class="contact-form" id="contactForm" name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
 
                 <input
                     type="text"
+                    name="name"
                     id="name"
                     placeholder="Your Name"
                     required
@@ -697,6 +699,7 @@
 
                 <input
                     type="email"
+                    name="email"
                     id="email"
                     placeholder="Your Email"
                     required
@@ -704,12 +707,14 @@
 
                 <input
                     type="text"
+                    name="subject"
                     id="subject"
                     placeholder="Subject"
                     required
                 >
 
                 <textarea
+                name="message"
                     id="message"
                     rows="6"
                     placeholder="Your Message"
